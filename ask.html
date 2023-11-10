@@ -1,7 +1,22 @@
 <html>
+    <h1>{{ . }}</h1>
+    <h2>
+        Please type in one of the following topics to learn more about:<br>
+    </h2>
+    <h3>
+        Contents<br>
+        Summary<br>
+        History<br>
+        Future development and trends<br>
+        Etymology<br>
+        Modern robots<br>
+        Robots in society<br>
+        Contemporary uses<br>
+        Robots in popular culture<br>
+    </h3>
     <form action="/ask-submit">
-    <label for="question">Question:</label><br>
-    <input type="text" id="question" name="username" value=""><br><br>
+    <label for="question">Topic:</label><br>
+    <input type="text" id="question" name="question" value=""><br><br>
     <input type="submit" value="Ask Me">
     </form>
 </html>
